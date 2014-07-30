@@ -24,6 +24,14 @@ Now you only need to add the following to your layout:
 <![endif]-->
 ```
 
+Also includes the d3 extension to aight. To include it just:
+
+```erb
+<!--[if lt IE 9]>
+  <%= javascript_include_tag 'aight.d3' %>
+<![endif]-->
+```
+
 ## License
 
 Same as Aight itself this is public domain.
